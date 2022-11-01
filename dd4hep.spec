@@ -1,4 +1,3 @@
-=======
 ### RPM external dd4hep v01-23x
 
 %define tag 5c3b494f047ee025b2e32303c16ad854bfbb342d
