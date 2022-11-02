@@ -15,12 +15,12 @@ Source0: git+https://github.com/gcc-mirror/%{n}.git?obj=%{gccBranch}/%{gccTag}&e
 %define gmpVersion 6.2.1
 %define mpfrVersion 4.1.0
 %define mpcVersion 1.2.1
-%define islVersion 0.24
+%define islVersion 0.25
 %define zlibVersion 1.2.13
 Source1: https://gmplib.org/download/gmp/gmp-%{gmpVersion}.tar.bz2
 Source2: http://www.mpfr.org/mpfr-%{mpfrVersion}/mpfr-%{mpfrVersion}.tar.bz2
 Source3: https://ftp.gnu.org/gnu/mpc/mpc-%{mpcVersion}.tar.gz
-Source4: http://isl.gforge.inria.fr/isl-%{islVersion}.tar.bz2
+Source4: https://libisl.sourceforge.io/isl-%{islVersion}.tar.gz
 Source12: http://zlib.net/zlib-%{zlibVersion}.tar.gz
 
 %ifos linux
